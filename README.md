@@ -53,7 +53,7 @@ This repository contains data information and experimental code for our ACL 2021
 
 ## Language Modeling
 
-*coming this week (Aug 2-7)*
+See the README in the `language_model` folder.
 
 
 
