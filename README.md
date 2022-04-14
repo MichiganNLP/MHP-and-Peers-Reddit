@@ -29,7 +29,27 @@ This repository contains data information and experimental code for our ACL 2021
 
 ## Linguistic and Dialogue Analysis
 
-*coming this week (Aug 2-7)*
+[LIWC.ipynb](./Analyses/LIWC.ipynb): Code for plotting Figure 1, LIWC usage. We provide the precomputed dominance scores for making the plots, since a license is required for LIWC (see http://liwc.wpengine.com/).
+
+  ![Figure 1. LIWC category dominance scores, computed as the relative use by peers divided by the relative use by MHPs, so that equal use is at y=1 (blue line), higher dominance by peers at $y>1$ (grey bars) and higher dominance by MHPs at y<1 (white bars). Showing categories where frequency of use differs by at least 10%.)](Analyses/Figure1.png)
+
+
+[Wordnet-Affect.ipynb](./Analyses/Wordnet-Affect.ipynb): Code for plotting Figure 2, WordNet affect usage. We provide the precomputed dominance scores for making the plots. To obtain WordNet domains, please see here: [https://wndomains.fbk.eu/download.html](https://wndomains.fbk.eu/download.html).
+
+  ![Figure 2. WordNet Affect usage (peers / MHPs)](Analyses/Figure2.png)
+
+
+[Prompts-Support-Seeker.ipynb](./Analyses/Prompts-Support-Seeker.ipynb): Code for plotting Figure 3, LIWC categories based on posts that prompt support-seeker replies. We provide percent usage of each LIWC category for each grouping, since a license is required for LIWC (see http://liwc.wpengine.com/).
+
+  ![Figure 3. Dominance of LIWC categories, computed as the category relative frequencies among comments that prompt support-seeker responses} divided by the relative frequencies among comments that do not, computed separately for MHPs (left) and peers (right).](Analyses/Figure3.png)
+
+
+[LSM.ipynb](./Analyses/LSM.ipynb): Code for plotting Figure 4, linguistic style matching. We provide the precomputed LSM scores for the function word categories for each post-reply pair, since a license is required for LIWC (see http://liwc.wpengine.com/).
+
+  ![Figure 4. LSM scores with 95% confidence intervals calculated with non-parametric bootstrap resampling.](Analyses/Figure4.png)
+
+
+
 
 ## Language Modeling
 
